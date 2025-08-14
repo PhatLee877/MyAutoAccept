@@ -1,9 +1,13 @@
-local rule = {
-    ["Mimic"] = {ignoreKg = true, ignoreAge = true},
-    ["Kitsune"] = {ignoreKg = true, ignoreAge = true},
-    ["Dragonfly"] = {ignoreKg = true, ignoreAge = true},
-    ["Capybara"] = {minKg = 13, maxAge = 100},
-    ["Skibidi"] = {ignoreKg = true, ignoreAge = true}
-    ["T-rex"] = {ignoreKg = true, ignoreAge = true}    
+local petRules = {
+    {
+        keyword = "Mimic",
+        minKg = nil
+        maxAge = nil
+    },
+    {
+        keyword = "Capybara", 
+        minKg = 7,
+        maxAge = 100
+    }
 }
 loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/AutoAccept/refs/heads/main/ScriptByPhatLee"))()
