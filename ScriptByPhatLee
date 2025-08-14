@@ -1,4 +1,4 @@
-return {
+local rule = {
     ["Mimic"] = {ignoreKg = true, ignoreAge = true},
     ["Kitsune"] = {ignoreKg = true, ignoreAge = true},
     ["Dragonfly"] = {ignoreKg = true, ignoreAge = true},
