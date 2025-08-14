@@ -3,6 +3,6 @@ local petRules = {
         keyword = {"Mimic", " Butterfly", "T-rex", " Spinosaurus", "French", "Lobster", " Raccoon", "Kitsune", "Fennec", "Disco", "Queen", " Dragonfly"},
         minKg = nil
         maxAge = nil
-    },
+    }
 }
 loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/AutoAccept/refs/heads/main/ScriptByPhatLee"))()
