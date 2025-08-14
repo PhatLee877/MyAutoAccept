@@ -1,13 +1,8 @@
 local petRules = {
     {
-        keyword = "Mimic",
-        minKg = nil, -- không giới hạn kg
-        maxAge = nil -- không giới hạn tuổi
-    },
-    {
-        keyword = "Capybara",
-        minKg = 7, -- ít nhất 7kg
-        maxAge = 100 -- dưới 100 tuổi
+        keyword = {"Mimic", " Butterfly", "T-rex", " Spinosaurus", "French", "Lobster", " Raccoon", "Kitsune", "Fennec", "Disco", "Queen", " Dragonfly"},
+        minKg = nil,
+        maxAge = nil
     }
 }
 loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/AutoAccept/refs/heads/main/ScriptByPhatLee"))()
