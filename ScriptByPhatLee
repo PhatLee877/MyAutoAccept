@@ -1,6 +1,6 @@
 local petRules = {
     {
-        keyword = "Mimic",
+        keyword = "Mimic", " Butterfly", "T-rex", " Spinosaurus", "French", "Lobster", " Raccoon", "Kitsune", "Fennec", "Disco", "Queen", " Dragonfly"
         minKg = nil
         maxAge = nil
     },
