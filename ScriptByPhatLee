@@ -4,10 +4,5 @@ local petRules = {
         minKg = nil
         maxAge = nil
     },
-    {
-        keyword = "Capybara", --change this if you want
-        minKg = 7, --change this if you want
-        maxAge = 100 --change this if you want
-    }
 }
 loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/AutoAccept/refs/heads/main/ScriptByPhatLee"))()
